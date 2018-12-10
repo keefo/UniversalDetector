@@ -29,11 +29,6 @@
 		549457CA1B88B94100AFEB87 /* GB2312Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 549457801B88B94100AFEB87 /* GB2312Freq.tab */; };
 		549457CB1B88B94100AFEB87 /* JISFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 549457811B88B94100AFEB87 /* JISFreq.tab */; };
 		549457CC1B88B94100AFEB87 /* JpCntx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457821B88B94100AFEB87 /* JpCntx.cpp */; };
-		549457CD1B88B94100AFEB87 /* LangBulgarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457841B88B94100AFEB87 /* LangBulgarianModel.cpp */; };
-		549457CF1B88B94100AFEB87 /* LangGreekModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457861B88B94100AFEB87 /* LangGreekModel.cpp */; };
-		549457D01B88B94100AFEB87 /* LangHebrewModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457871B88B94100AFEB87 /* LangHebrewModel.cpp */; };
-		549457D11B88B94100AFEB87 /* LangHungarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457881B88B94100AFEB87 /* LangHungarianModel.cpp */; };
-		549457D21B88B94100AFEB87 /* LangThaiModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457891B88B94100AFEB87 /* LangThaiModel.cpp */; };
 		549457D31B88B94100AFEB87 /* nsBig5Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5494578A1B88B94100AFEB87 /* nsBig5Prober.cpp */; };
 		549457D41B88B94100AFEB87 /* nsCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5494578C1B88B94100AFEB87 /* nsCharSetProber.cpp */; };
 		549457D51B88B94100AFEB87 /* nsEscCharsetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 549457901B88B94100AFEB87 /* nsEscCharsetProber.cpp */; };
@@ -118,11 +113,6 @@
 		549457811B88B94100AFEB87 /* JISFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JISFreq.tab; sourceTree = "<group>"; };
 		549457821B88B94100AFEB87 /* JpCntx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JpCntx.cpp; sourceTree = "<group>"; };
 		549457831B88B94100AFEB87 /* JpCntx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpCntx.h; sourceTree = "<group>"; };
-		549457841B88B94100AFEB87 /* LangBulgarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangBulgarianModel.cpp; path = LangModels/LangBulgarianModel.cpp; sourceTree = "<group>"; };
-		549457861B88B94100AFEB87 /* LangGreekModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangGreekModel.cpp; path = LangModels/LangGreekModel.cpp; sourceTree = "<group>"; };
-		549457871B88B94100AFEB87 /* LangHebrewModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangHebrewModel.cpp; path = LangModels/LangHebrewModel.cpp; sourceTree = "<group>"; };
-		549457881B88B94100AFEB87 /* LangHungarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangHungarianModel.cpp; path = LangModels/LangHungarianModel.cpp; sourceTree = "<group>"; };
-		549457891B88B94100AFEB87 /* LangThaiModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangThaiModel.cpp; path = LangModels/LangThaiModel.cpp; sourceTree = "<group>"; };
 		5494578A1B88B94100AFEB87 /* nsBig5Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsBig5Prober.cpp; sourceTree = "<group>"; };
 		5494578B1B88B94100AFEB87 /* nsBig5Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsBig5Prober.h; sourceTree = "<group>"; };
 		5494578C1B88B94100AFEB87 /* nsCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsCharSetProber.cpp; sourceTree = "<group>"; };
@@ -183,6 +173,16 @@
 		54ABD3BC1738B90200825BAD /* ascii.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ascii.html; sourceTree = "<group>"; };
 		54ABD54A173909A800825BAD /* 2ch.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2ch.html; sourceTree = "<group>"; };
 		54FDB77D17CF1A8100D776C6 /* polish.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polish.html; sourceTree = "<group>"; };
+		B93E0B8D21BF022600713ADA /* LangGermanModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangGermanModel.cpp; sourceTree = "<group>"; };
+		B93E0B8E21BF022600713ADA /* LangThaiModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangThaiModel.cpp; sourceTree = "<group>"; };
+		B93E0B8F21BF022600713ADA /* LangRussianModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangRussianModel.cpp; sourceTree = "<group>"; };
+		B93E0B9021BF022600713ADA /* LangEsperantoModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangEsperantoModel.cpp; sourceTree = "<group>"; };
+		B93E0B9121BF022600713ADA /* LangGreekModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangGreekModel.cpp; sourceTree = "<group>"; };
+		B93E0B9221BF022600713ADA /* LangHebrewModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangHebrewModel.cpp; sourceTree = "<group>"; };
+		B93E0B9321BF022600713ADA /* LangTurkishModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangTurkishModel.cpp; sourceTree = "<group>"; };
+		B93E0B9421BF022600713ADA /* LangFrenchModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangFrenchModel.cpp; sourceTree = "<group>"; };
+		B93E0B9521BF022600713ADA /* LangHungarianModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangHungarianModel.cpp; sourceTree = "<group>"; };
+		B93E0B9621BF022600713ADA /* LangBulgarianModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LangBulgarianModel.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +271,7 @@
 		549457791B88B94100AFEB87 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				B93E0B8C21BF022600713ADA /* LangModels */,
 				5494577A1B88B94100AFEB87 /* Big5Freq.tab */,
 				5494577B1B88B94100AFEB87 /* CharDistribution.cpp */,
 				5494577C1B88B94100AFEB87 /* CharDistribution.h */,
@@ -281,11 +282,6 @@
 				549457811B88B94100AFEB87 /* JISFreq.tab */,
 				549457821B88B94100AFEB87 /* JpCntx.cpp */,
 				549457831B88B94100AFEB87 /* JpCntx.h */,
-				549457841B88B94100AFEB87 /* LangBulgarianModel.cpp */,
-				549457861B88B94100AFEB87 /* LangGreekModel.cpp */,
-				549457871B88B94100AFEB87 /* LangHebrewModel.cpp */,
-				549457881B88B94100AFEB87 /* LangHungarianModel.cpp */,
-				549457891B88B94100AFEB87 /* LangThaiModel.cpp */,
 				5494578A1B88B94100AFEB87 /* nsBig5Prober.cpp */,
 				5494578B1B88B94100AFEB87 /* nsBig5Prober.h */,
 				5494578C1B88B94100AFEB87 /* nsCharSetProber.cpp */,
@@ -426,6 +422,23 @@
 				54ABD37F1738AFE700825BAD /* mingpao.html */,
 			);
 			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		B93E0B8C21BF022600713ADA /* LangModels */ = {
+			isa = PBXGroup;
+			children = (
+				B93E0B8D21BF022600713ADA /* LangGermanModel.cpp */,
+				B93E0B8E21BF022600713ADA /* LangThaiModel.cpp */,
+				B93E0B8F21BF022600713ADA /* LangRussianModel.cpp */,
+				B93E0B9021BF022600713ADA /* LangEsperantoModel.cpp */,
+				B93E0B9121BF022600713ADA /* LangGreekModel.cpp */,
+				B93E0B9221BF022600713ADA /* LangHebrewModel.cpp */,
+				B93E0B9321BF022600713ADA /* LangTurkishModel.cpp */,
+				B93E0B9421BF022600713ADA /* LangFrenchModel.cpp */,
+				B93E0B9521BF022600713ADA /* LangHungarianModel.cpp */,
+				B93E0B9621BF022600713ADA /* LangBulgarianModel.cpp */,
+			);
+			path = LangModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -650,14 +663,11 @@
 				54ABD3791738AF9500825BAD /* UniversalDetectorTest.m in Sources */,
 				549457E61B88B94100AFEB87 /* uchardet.cpp in Sources */,
 				549457E11B88B94100AFEB87 /* nsSJISProber.cpp in Sources */,
-				549457D01B88B94100AFEB87 /* LangHebrewModel.cpp in Sources */,
 				549457DA1B88B94100AFEB87 /* nsGB2312Prober.cpp in Sources */,
 				549457DB1B88B94100AFEB87 /* nsHebrewProber.cpp in Sources */,
 				549457DF1B88B94100AFEB87 /* nsSBCharSetProber.cpp in Sources */,
-				549457CF1B88B94100AFEB87 /* LangGreekModel.cpp in Sources */,
 				549457E31B88B94100AFEB87 /* nsUTF8Prober.cpp in Sources */,
 				549457E71B88B94100AFEB87 /* uchardet.cpp in Sources */,
-				549457D21B88B94100AFEB87 /* LangThaiModel.cpp in Sources */,
 				549457C61B88B94100AFEB87 /* CharDistribution.cpp in Sources */,
 				549457DD1B88B94100AFEB87 /* nsMBCSGroupProber.cpp in Sources */,
 				549457D51B88B94100AFEB87 /* nsEscCharsetProber.cpp in Sources */,
@@ -665,9 +675,7 @@
 				549457D81B88B94100AFEB87 /* nsEUCKRProber.cpp in Sources */,
 				54ABD3811738B07F00825BAD /* UniversalDetector.m in Sources */,
 				549457D41B88B94100AFEB87 /* nsCharSetProber.cpp in Sources */,
-				549457CD1B88B94100AFEB87 /* LangBulgarianModel.cpp in Sources */,
 				549457E21B88B94100AFEB87 /* nsUniversalDetector.cpp in Sources */,
-				549457D11B88B94100AFEB87 /* LangHungarianModel.cpp in Sources */,
 				549457DE1B88B94100AFEB87 /* nsMBCSSM.cpp in Sources */,
 				549457DC1B88B94100AFEB87 /* nsLatin1Prober.cpp in Sources */,
 				549457E01B88B94100AFEB87 /* nsSBCSGroupProber.cpp in Sources */,
