@@ -716,7 +716,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetectorOSX/UniversalDetectorOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/external/uchardet-0.0.5/src/";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -736,7 +735,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetectorOSX/UniversalDetectorOSX-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/external/uchardet-0.0.5/src/";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -839,7 +837,6 @@
 				DSTROOT = /tmp/UniversalDetector.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetector/UniversalDetector-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/external/uchardet-0.0.5/src/";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -852,7 +849,6 @@
 				DSTROOT = /tmp/UniversalDetector.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetector/UniversalDetector-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/external/uchardet-0.0.5/src/";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
