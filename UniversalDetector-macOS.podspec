@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s,
     :submodules => true }
 
-  s.source_files        = 'UniversalDetector/*.{h,m}', 'external/uchardet/src/*.{h,cpp}'
-  s.public_header_files = 'UniversalDetector/*.h', 'external/uchardet/src/uchardet.h'
-  s.preserve_paths      = 'external/uchardet/src/*.{tab}'
+  s.source_files        = 'UniversalDetector/*.{h,m}', 'external/uchardet-0.0.5/src/*.{h,cpp}'
+  s.public_header_files = 'UniversalDetector/*.h', 'external/uchardet-0.0.5/src/uchardet.h'
+  s.preserve_paths      = 'external/uchardet-0.0.5/src/*.{tab}'
 
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
