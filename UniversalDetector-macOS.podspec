@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.preserve_paths      = 'external/uchardet-0.0.5/src/*.{tab}'
 
   s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
+  s.osx.deployment_target = '10.9'
 
   s.xcconfig = {
        'WARNING_CFLAGS' => '-Wno-shorten-64-to-32 -Wno-logical-op-parentheses'
   }
 
-  s.library             = 'stdc++'
+  #s.library             = 'stdc++'
   s.requires_arc = true
 end
