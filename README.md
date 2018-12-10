@@ -16,7 +16,7 @@ NSString* encodingStr      = [UniversalDetector encodingAsStringWithData:data];
 If you use CocoaPods, add following line to your Podfile:
 
 ```
-pod 'UniversalDetector'
+pod 'UniversalDetector-macOS'
 ```
 
 Otherwise, add 'UniversalDetector/*.{h,m}', 'external/*.{h,cpp}', 'external/universalchardet/src/base/*.{cpp,h,tab}' and library 'libstdc++' to your project.
