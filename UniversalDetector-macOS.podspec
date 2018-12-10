@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name          = 'UniversalDetector for macOS'
+  s.name          = 'UniversalDetector-macOS'
   s.version       = '1.0.1'
   s.license       = { :type => 'Mozilla Public License', :file => 'LICENSE' }
   s.summary       =  'Wrapper of uchardet for Objective-C.'
